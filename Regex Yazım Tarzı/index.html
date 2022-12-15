@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+   <!-- Bİz eğer regex yazım tarzında eğer başata ve sonda bir şey yazmadan sadece bir kelimenin yazmasını istiyorsak o zaman  
+    biz ^ can $ yazacağız.Bunu yazdığımızda başta ve sonda bir kelime bulunmayan canı bize yazdır demiş oluyoruz.
+     ^can dediğimizdeSadece başta candan başka harf olmayan canı al demiş oluyoruz.
+   can$ Dediğimizde ise biz sadece sonda candan başka harf olmayan canı bul demiş oluyoruz biz. 
+    
+   Biz eğer b ile z arasında basşında ve sonunda o karakterden başka karakter olmayan ve a dan zye kadar ki karakterler dersek o zaman biz 
+   ^[b-z]$ biz burada a harfini girsek eşleşme olmaz çünkü b ile z arasında değildir .
+   Biz eğer hem a ile z arsında hem A-Z arasında hemde 0 ile 9 arasında olmasını istiyorsak sayımızın o zaman biz
+   ^[a-zA-z0-9]{5,10}$ yapıyoruz.
+   Biz eğer tek bir karakter kontrolü istiyorsak sonradan eklediğimiz süslü parantezlerin  5ile 10 karakter arsında tanımlamasını yapmıyacağız.Kısacası süslü parantezi tek karakter sorgulatmak istiyorsak yapmayacağız.
+  Özel karakterlerde eşleşme olmaz üsteki şekilde.
+
+  Biz eğer bütün karakterler diyorsak başına nokta koyup sonrada karakter sayısını süslü parantezde veriyoruz.
+
+  Örnek : .{5,10}
+-->
+</body>
+</html>
